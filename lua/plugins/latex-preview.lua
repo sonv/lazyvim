@@ -15,8 +15,7 @@ return {
     },
   },
   {
-    dir = "~/.local/share/nvim/local-plugins/latex-preview-nvim",
-    name = "latex-preview.nvim",
+    "sonv/latex-preview.nvim",
     dependencies = { "folke/snacks.nvim" },
     ft = { "tex", "latex", "markdown" },
     opts = {

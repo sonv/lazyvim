@@ -4,3 +4,4 @@
 vim.g.mapleader = "\\"
 vim.g.maplocalleader = " "
 vim.opt.wrap = true
+vim.opt.scrolloff = math.floor(vim.api.nvim_win_get_height(0) * 0.25)
