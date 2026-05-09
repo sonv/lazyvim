@@ -8,7 +8,6 @@
     "lazyvim.plugins.extras.editor.telescope",
     "lazyvim.plugins.extras.lang.git",
     "lazyvim.plugins.extras.lang.tex",
-    "lazyvim.plugins.extras.lang.typst",
     "lazyvim.plugins.extras.linting.eslint",
     "lazyvim.plugins.extras.util.project"
   ],
