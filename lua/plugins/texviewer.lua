@@ -1,5 +1,6 @@
 return {
   "sonv/TexViewer",
+  branch = "dev",
   ft = { "tex", "plaintex", "latex" },
   cmd = { "MathPreview", "MathPreviewStop", "MathPreviewRestart", "MathPreviewStatus" },
   -- All `opts` keys are optional; the defaults work for the standard case.
