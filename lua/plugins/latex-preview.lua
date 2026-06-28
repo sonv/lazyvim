@@ -20,7 +20,7 @@ return {
     ft = { "tex", "latex", "markdown" },
     opts = {
       setup_keymap = true,
-      cache = false,
+      cache = true,
       cache_dir = "aux",
     },
   },
