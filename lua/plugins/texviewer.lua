@@ -27,5 +27,6 @@ return {
   },
   config = function(_, opts)
     require("mathpreview").setup(opts)
+    require("mathpreview").setup({ viewer = "window" }) -- default is "browser"
   end,
 }
