@@ -7,8 +7,8 @@ return {
   config = function()
     require("zotcite").setup({
       -- your options here (see doc/zotcite.txt)
-      zotero_sqlite_path = "~/Zotero/zotero.sqlite",
-      attach_dir = "~/Documents/References",
+      zotero_sqlite_path = vim.fn.expand("~/Zotero/zotero.sqlite"),
+      attach_dir = vim.fn.expand("~/Documents/References"),
     })
   end,
 }
