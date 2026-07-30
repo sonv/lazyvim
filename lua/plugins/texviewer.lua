@@ -1,6 +1,6 @@
 return {
   "sonv/TexViewer",
-  -- branch = "dev",
+  branch = "dev",
   ft = { "tex", "plaintex", "latex" },
   cmd = { "MathPreview", "MathPreviewStop", "MathPreviewRestart", "MathPreviewStatus" },
   -- All `opts` keys are optional; the defaults work for the standard case.
@@ -27,6 +27,5 @@ return {
   },
   config = function(_, opts)
     require("mathpreview").setup(opts)
-    require("mathpreview").setup({ viewer = "window" }) -- default is "browser"
   end,
 }
